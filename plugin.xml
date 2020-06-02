@@ -47,7 +47,7 @@ limitations under the License.
         <dict>
           <key>CFBundleURLSchemes</key>
           <array>
-            <string>$PACKAGE_NAME</string>
+            <string>sconectada</string>
           </array>
         </dict>
       </array>
@@ -71,7 +71,7 @@ limitations under the License.
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
 
-        <data android:scheme="$PACKAGE_NAME" android:host="oauth_callback" />
+        <data android:scheme="sconectada" android:host="oauth_callback" />
       </intent-filter>
     </config-file>
 

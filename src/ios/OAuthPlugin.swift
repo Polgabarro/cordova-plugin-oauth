@@ -124,7 +124,7 @@ class OAuthPlugin : CDVPlugin, SFSafariViewControllerDelegate {
     var logger : OSLog?
 
     override func pluginInitialize() {
-        let appID = Bundle.main.bundleIdentifier!
+        let appID = "sconectada"
 
         self.callbackScheme = "\(appID)://oauth_callback"
         self.logger = OSLog(subsystem: appID, category: "Cordova")
